@@ -131,9 +131,9 @@ def code_review_optimized_suite():
             i += 1
             print(f"\n--- FAST PULSE #{i} ---")
             roll = random.random()
-            if roll < 0.45:
+            if roll < 0.50:
                 create_pr_and_review(i)
-            elif roll < 0.80:
+            elif roll < 0.70:
                 create_issue()
             elif roll < 0.95:
                 review_existing_pr()
