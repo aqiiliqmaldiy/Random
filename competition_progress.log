@@ -5,3 +5,4 @@
 2026-03-03 15:29:50 - Updated submission script for test set predictions (Sprint Pulse #5) [2026-03-03 15:29:50]
 2026-03-03 15:30:10 - Refined hyperparameter grid for XGBoost (Sprint Pulse #6) [2026-03-03 15:30:10]
 2026-03-03 15:30:41 - Cleaned up outliers in training set (Sprint Pulse #7) [2026-03-03 15:30:41]
+2026-03-03 15:30:58 - Refined hyperparameter grid for XGBoost (Sprint Pulse #8) [2026-03-03 15:30:58]
