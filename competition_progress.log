@@ -461,3 +461,5 @@
 2026-03-04 14:21:35 - Updated submission script for test set predictions (Sprint Pulse #651) [2026-03-04 14:21:35]
 2026-03-04 14:21:45 - Cleaned up outliers in training set (Sprint Pulse #653) [2026-03-04 14:21:45]
 2026-03-04 14:22:00 - Refined hyperparameter grid for XGBoost (Sprint Pulse #656) [2026-03-04 14:22:00]
+2026-03-04 14:22:00 - Updated LightGBM parameters for better convergence (Sprint Pulse #1276) [2026-03-04 14:22:00]
+2026-03-04 14:22:01 - Updated LightGBM parameters for better convergence (Sprint Pulse #2088) [2026-03-04 14:22:01]
