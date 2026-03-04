@@ -15,8 +15,32 @@ DATA_FILE = "competition_progress.log"
 
 HEADERS = {
     "Authorization": f"token {GITHUB_TOKEN}",
-    "Accept": "application/vnd.github.v3+json"
+    "Accept": "application/vnd.github.v3+json",
+    "User-Agent": "GitHubContributionSim/1.0 (Data Science Competition Simulation)"
 }
+
+BACKOFF_TIME = 60 # Seconds to wait after hitting secondary rate limit
+backoff_until = 0
+
+def log_event(message):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    full_msg = f"[{ts}] {message}"
+    print(full_msg)
+    with open(DATA_FILE, "a") as f:
+        f.write(full_msg + "\n")
+
+def handle_api_response(response, action_name):
+    global backoff_until
+    if response.status_code in [200, 201]:
+        log_event(f"SUCCESS: {action_name} created/updated. URL: {response.json().get('html_url')}")
+        return response.json()
+    elif response.status_code == 403 and "secondary rate limit" in response.text.lower():
+        log_event(f"CRITICAL: Secondary Rate Limit hit during {action_name}. Backing off for {BACKOFF_TIME}s.")
+        backoff_until = time.time() + BACKOFF_TIME
+        return None
+    else:
+        log_event(f"ERROR: {action_name} failed with status {response.status_code}. Response: {response.text[:200]}")
+        return None
 
 # DATA SCIENCE MESSAGES
 COMMIT_MESSAGES = [
@@ -68,8 +92,7 @@ def create_commit(index):
     msg = random.choice(COMMIT_MESSAGES)
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     full_msg = f"{msg} (Sprint Pulse #{index}) [{ts}]"
-    with open(DATA_FILE, "a") as f:
-        f.write(f"{ts} - {full_msg}\n")
+    log_event(f"COMMIT: {full_msg}")
     run_cmd("git add .")
     run_cmd(f'git commit -m "{full_msg}"')
     run_cmd("git push origin main")
@@ -79,31 +102,30 @@ def create_issue():
     url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/issues"
     data = {"title": issue["title"], "body": issue["body"]}
     response = requests.post(url, headers=HEADERS, data=json.dumps(data))
-    if response.status_code == 201:
-        print(f"Issue created: {response.json().get('html_url')}")
+    handle_api_response(response, f"Issue: {issue['title']}")
 
 def create_pr_and_review(index):
     task = random.choice(PR_TASKS)
     timestamp = int(time.time())
     branch_name = f"dev/feature-set-{index}-{timestamp}"
     run_cmd(f"git checkout -b {branch_name}")
-    with open(DATA_FILE, "a") as f:
-        f.write(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] PR Pulse: {task['file_change']}")
+    log_event(f"PR BRANCH: Created {branch_name} for {task['title']}")
     run_cmd("git add .")
     run_cmd(f'git commit -m "{task["msg"]}"')
     run_cmd(f"git push origin {branch_name}")
     url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/pulls"
     data = {"title": task["title"], "head": branch_name, "base": "main", "body": f"Refined implementation of: {task['file_change']}."}
     pr_response = requests.post(url, headers=HEADERS, data=json.dumps(data))
-    if pr_response.status_code == 201:
-        pr_number = pr_response.json().get('number')
-        print(f"PR opened: {pr_response.json().get('html_url')}")
-        time.sleep(1)
+    pr_data = handle_api_response(pr_response, f"PR: {task['title']}")
+    
+    if pr_data:
+        pr_number = pr_data.get('number')
+        time.sleep(2) # Slight delay before review
         # Perform Review
         review_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/pulls/{pr_number}/reviews"
         review_data = {"body": random.choice(REVIEW_COMMENTS), "event": "APPROVE"}
-        requests.post(review_url, headers=HEADERS, data=json.dumps(review_data))
-        print(f"Code Review added to PR #{pr_number}")
+        rev_response = requests.post(review_url, headers=HEADERS, data=json.dumps(review_data))
+        handle_api_response(rev_response, f"Review for PR #{pr_number}")
     run_cmd("git checkout main")
 
 def review_existing_pr():
@@ -116,18 +138,26 @@ def review_existing_pr():
             pr_number = pr['number']
             review_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/pulls/{pr_number}/reviews"
             review_data = {"body": random.choice(REVIEW_COMMENTS) + " (Sprint Audit)", "event": "COMMENT"}
-            requests.post(review_url, headers=HEADERS, data=json.dumps(review_data))
-            print(f"Review comment added to existing PR #{pr_number}")
+            rev_response = requests.post(review_url, headers=HEADERS, data=json.dumps(review_data))
+            handle_api_response(rev_response, f"Existing PR Review #{pr_number}")
         else:
             create_pr_and_review(random.randint(100, 999))
 
 def code_review_optimized_suite():
-    print("REVIEW-OPTIMIZED COMPETITION SIMULATION STARTING")
+    log_event("REVIEW-OPTIMIZED COMPETITION SIMULATION STARTING (Sustainable Version)")
     print("Action Plan: PR+Review (25%), Issue (25%), Standalone Review (25%), Commit (25%)")
     print("Press Ctrl+C to stop.")
     i = 0
     while True:
         try:
+            # Check if we are in backoff
+            current_time = time.time()
+            if current_time < backoff_until:
+                wait_remaining = int(backoff_until - current_time)
+                print(f"Snoozing due to secondary rate limit... {wait_remaining}s left.")
+                time.sleep(min(5, wait_remaining))
+                continue
+
             i += 1
             print(f"\n--- FAST PULSE #{i} ---")
             roll = random.random()
@@ -140,16 +170,16 @@ def code_review_optimized_suite():
             else:
                 create_commit(i)
             
-            # ACCELERATED: 2 to 8 seconds delay
-            wait = random.randint(2, 8)
+            # SUSTAINABLE: 5 to 15 seconds delay
+            wait = random.randint(5, 15)
             print(f"Waiting {wait}s for next pulse...")
             time.sleep(wait)
         except KeyboardInterrupt:
             print("Shutting down...")
             break
         except Exception as e:
-            print(f"Error: {e}")
-            time.sleep(5)
+            log_event(f"UNEXPECTED ERROR: {e}")
+            time.sleep(10)
 
 if __name__ == "__main__":
     code_review_optimized_suite()
