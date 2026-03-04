@@ -123,7 +123,7 @@ def review_existing_pr():
 
 def code_review_optimized_suite():
     print("REVIEW-OPTIMIZED COMPETITION SIMULATION STARTING")
-    print("Action Plan: PR+Review (45%), Issue (35%), Standalone Review (15%), Commit (5%)")
+    print("Action Plan: PR+Review (25%), Issue (25%), Standalone Review (25%), Commit (25%)")
     print("Press Ctrl+C to stop.")
     i = 0
     while True:
@@ -131,11 +131,11 @@ def code_review_optimized_suite():
             i += 1
             print(f"\n--- FAST PULSE #{i} ---")
             roll = random.random()
-            if roll < 0.50:
+            if roll < 0.25:
                 create_pr_and_review(i)
-            elif roll < 0.70:
+            elif roll < 0.50:
                 create_issue()
-            elif roll < 0.95:
+            elif roll < 0.75:
                 review_existing_pr()
             else:
                 create_commit(i)
