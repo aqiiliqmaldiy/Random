@@ -1,6 +1,3 @@
 # MyTestProject
-dfndfjmkdmfkmgg
-sdsdssdsdsdsd
-dsdsdsdsd
-dfdf
+fdfdas
 dfdfdf
