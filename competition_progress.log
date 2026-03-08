@@ -876,3 +876,5 @@
 [2026-03-08 15:30:15] REVIEW SUBMITTED ON PR #3892
 [2026-03-08 15:34:36] ISSUE CREATED: Improvement: Strategic outlier removal for tabular data
 [2026-03-08 15:34:54] ISSUE CREATED: Feature: Implement stratified K-fold cross-validation
+[2026-03-08 15:38:06] ISSUE CREATED: Performance: Optimize Dask loading speed
+[2026-03-08 15:38:40] ISSUE CREATED: Data: Check for data leakage in preprocessing pipeline
