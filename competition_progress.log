@@ -874,3 +874,5 @@
 [2026-03-08 15:20:01] ISSUE CREATED: Feature: Add support for weighted ensemble methods
 [2026-03-08 15:20:25] ISSUE CREATED: Data: Check for data leakage in preprocessing pipeline
 [2026-03-08 15:30:15] REVIEW SUBMITTED ON PR #3892
+[2026-03-08 15:34:36] ISSUE CREATED: Improvement: Strategic outlier removal for tabular data
+[2026-03-08 15:34:54] ISSUE CREATED: Feature: Implement stratified K-fold cross-validation
