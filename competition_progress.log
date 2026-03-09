@@ -15449,3 +15449,9 @@
   "status": "401"
 }
 [2026-03-09 15:40:30] COMMIT: Added logging for validation metrics (Sprint Pulse #1857) [2026-03-09 15:40:30]
+[2026-03-09 15:40:36] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:40:43] PR BRANCH: Created dev/feature-set-2059-1773042043 for Add pseudo-labeling strategy for test set
