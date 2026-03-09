@@ -15178,3 +15178,19 @@
   "status": "401"
 }
 [2026-03-09 15:36:33] PR BRANCH: Created dev/feature-set-1892-1773041793 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-09 15:36:37] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:36:38] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:36:41] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:36:42] PR BRANCH: Created dev/feature-set-2018-1773041802 for Advanced Feature Engineering Pipeline
