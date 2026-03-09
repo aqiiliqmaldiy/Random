@@ -15154,3 +15154,9 @@
 [2026-03-09 15:36:03] COMMIT: Added logging for validation metrics (Sprint Pulse #1834) [2026-03-09 15:36:03]
 [2026-03-09 15:36:11] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1890) [2026-03-09 15:36:11]
 [2026-03-09 15:36:11] PR BRANCH: Created dev/feature-set-2014-1773041771 for Add pseudo-labeling strategy for test set
+[2026-03-09 15:36:15] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:36:16] PR BRANCH: Created dev/feature-set-1835-1773041776 for Add pseudo-labeling strategy for test set
