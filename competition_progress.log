@@ -2911,3 +2911,5 @@
 [2026-03-09 11:37:53] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #780) [2026-03-09 11:37:53]
 [2026-03-09 11:38:06] PR BRANCH: Created dev/feature-set-781-1773027486 for Add pseudo-labeling strategy for test set
 [2026-03-09 11:38:06] COMMIT: Added data normalization to preprocessing pipeline (Sprint Pulse #832) [2026-03-09 11:38:06]
+[2026-03-09 11:38:15] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
+[2026-03-09 11:38:19] PR BRANCH: Created dev/feature-set-833-1773027499 for Add pseudo-labeling strategy for test set
