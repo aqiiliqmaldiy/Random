@@ -15726,3 +15726,9 @@
 }
 [2026-03-09 15:44:51] COMMIT: Updated submission script for test set predictions (Sprint Pulse #2100) [2026-03-09 15:44:51]
 [2026-03-09 15:44:53] PR BRANCH: Created dev/feature-set-1935-1773042293 for Add pseudo-labeling strategy for test set
+[2026-03-09 15:44:56] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:44:58] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #1880) [2026-03-09 15:44:58]
