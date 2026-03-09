@@ -6653,3 +6653,9 @@
   "documentation_url": "https://docs.github.com/rest",
   "status": "401"
 }
+[2026-03-09 12:59:00] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:59:05] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #622) [2026-03-09 12:59:05]
