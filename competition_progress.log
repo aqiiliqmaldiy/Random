@@ -2386,3 +2386,5 @@
 [2026-03-09 10:51:14] SUCCESS: Existing PR Review #12 created/updated. URL: https://github.com/aqiiliqmaldiy/Random/pull/12#pullrequestreview-3912585705
 [2026-03-09 10:51:18] SUCCESS: Existing PR Review #12 created/updated. URL: https://github.com/aqiiliqmaldiy/Random/pull/12#pullrequestreview-3912585833
 [2026-03-09 10:51:25] PR BRANCH: Created dev/feature-set-583-1773024685 for Advanced Feature Engineering Pipeline
+[2026-03-09 10:51:33] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
+[2026-03-09 10:51:34] PR BRANCH: Created dev/feature-set-621-1773024693 for Add pseudo-labeling strategy for test set
