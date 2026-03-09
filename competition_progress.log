@@ -14709,3 +14709,14 @@
 }
 [2026-03-09 15:29:27] COMMIT: Added logging for validation metrics (Sprint Pulse #1941) [2026-03-09 15:29:27]
 [2026-03-09 15:29:32] PR BRANCH: Created dev/feature-set-1942-1773041372 for Add pseudo-labeling strategy for test set
+[2026-03-09 15:29:35] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:29:36] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:29:37] PR BRANCH: Created dev/feature-set-1856-1773041377 for Ensemble Model: XGBoost + LightGBM + CatBoost
