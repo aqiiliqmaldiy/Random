@@ -3672,3 +3672,9 @@
   "status": "401"
 }
 [2026-03-09 12:12:27] COMMIT: Cleaned up outliers in training set (Sprint Pulse #94) [2026-03-09 12:12:27]
+[2026-03-09 12:12:31] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:12:36] PR BRANCH: Created dev/feature-set-96-1773029556 for Advanced Feature Engineering Pipeline
