@@ -6462,3 +6462,19 @@
 }
 [2026-03-09 12:55:58] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #590) [2026-03-09 12:55:58]
 [2026-03-09 12:56:03] PR BRANCH: Created dev/feature-set-1193-1773032163 for Add pseudo-labeling strategy for test set
+[2026-03-09 12:56:05] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:56:06] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:56:08] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:56:10] PR BRANCH: Created dev/feature-set-592-1773032170 for Add pseudo-labeling strategy for test set
