@@ -20077,3 +20077,14 @@
   "status": "401"
 }
 [2026-03-09 16:46:49] PR BRANCH: Created dev/feature-set-2201-1773046009 for Add pseudo-labeling strategy for test set
+[2026-03-09 16:46:51] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:46:52] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:46:54] PR BRANCH: Created dev/feature-set-2749-1773046014 for Ensemble Model: XGBoost + LightGBM + CatBoost
