@@ -8879,3 +8879,9 @@
   "status": "401"
 }
 [2026-03-09 13:33:56] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #1381) [2026-03-09 13:33:56]
+[2026-03-09 13:34:03] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:34:09] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #1348) [2026-03-09 13:34:09]
