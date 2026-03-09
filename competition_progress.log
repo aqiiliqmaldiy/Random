@@ -12901,3 +12901,14 @@
 }
 [2026-03-09 15:00:20] PR BRANCH: Created dev/feature-set-1631-1773039619 for Advanced Feature Engineering Pipeline
 [2026-03-09 15:00:23] PR BRANCH: Created dev/feature-set-1669-1773039622 for Implementing TTA (Test Time Augmentation)
+[2026-03-09 15:00:23] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:00:25] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:00:27] PR BRANCH: Created dev/feature-set-1633-1773039627 for Add pseudo-labeling strategy for test set
