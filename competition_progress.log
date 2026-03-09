@@ -20600,3 +20600,9 @@
 [2026-03-09 16:54:32] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #2242) [2026-03-09 16:54:32]
 [2026-03-09 16:54:37] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #2291) [2026-03-09 16:54:37]
 [2026-03-09 16:54:54] PR BRANCH: Created dev/feature-set-2292-1773046494 for Add pseudo-labeling strategy for test set
+[2026-03-09 16:54:57] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:55:14] PR BRANCH: Created dev/feature-set-2294-1773046514 for Advanced Feature Engineering Pipeline
