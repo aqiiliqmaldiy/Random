@@ -5087,3 +5087,19 @@
   "status": "401"
 }
 [2026-03-09 12:35:15] PR BRANCH: Created dev/feature-set-351-1773030915 for Advanced Feature Engineering Pipeline
+[2026-03-09 12:35:18] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:35:19] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:35:21] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:35:23] COMMIT: Added logging for validation metrics (Sprint Pulse #352) [2026-03-09 12:35:23]
