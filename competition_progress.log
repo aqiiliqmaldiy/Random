@@ -4019,3 +4019,9 @@
   "status": "401"
 }
 [2026-03-09 12:18:28] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #158) [2026-03-09 12:18:28]
+[2026-03-09 12:18:29] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:18:32] PR BRANCH: Created dev/feature-set-159-1773029911 for Advanced Feature Engineering Pipeline
