@@ -13064,3 +13064,9 @@
   "documentation_url": "https://docs.github.com/rest",
   "status": "401"
 }
+[2026-03-09 15:02:51] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:02:53] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1721) [2026-03-09 15:02:53]
