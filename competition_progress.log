@@ -11437,3 +11437,14 @@
   "status": "401"
 }
 [2026-03-09 14:38:22] PR BRANCH: Created dev/feature-set-1398-1773038302 for Add pseudo-labeling strategy for test set
+[2026-03-09 14:38:22] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:38:26] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:38:34] PR BRANCH: Created dev/feature-set-1558-1773038314 for Ensemble Model: XGBoost + LightGBM + CatBoost
