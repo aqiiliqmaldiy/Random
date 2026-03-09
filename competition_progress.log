@@ -17845,3 +17845,14 @@
 }
 [2026-03-09 16:14:38] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #2413) [2026-03-09 16:14:38]
 [2026-03-09 16:14:47] PR BRANCH: Created dev/feature-set-2415-1773044087 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-09 16:14:49] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:14:50] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:14:58] PR BRANCH: Created dev/feature-set-2417-1773044098 for Advanced Feature Engineering Pipeline
