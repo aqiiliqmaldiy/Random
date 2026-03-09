@@ -15739,3 +15739,14 @@
   "status": "401"
 }
 [2026-03-09 15:45:08] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #1881) [2026-03-09 15:45:08]
+[2026-03-09 15:45:09] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:45:12] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:45:16] PR BRANCH: Created dev/feature-set-2105-1773042316 for Add pseudo-labeling strategy for test set
