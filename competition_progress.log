@@ -18827,3 +18827,14 @@
   "status": "401"
 }
 [2026-03-09 16:28:55] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #2565) [2026-03-09 16:28:55]
+[2026-03-09 16:29:00] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:29:04] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:29:08] PR BRANCH: Created dev/feature-set-2567-1773044948 for Add pseudo-labeling strategy for test set
