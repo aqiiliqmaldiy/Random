@@ -19990,3 +19990,14 @@
 }
 [2026-03-09 16:45:41] PR BRANCH: Created dev/feature-set-2195-1773045941 for Add pseudo-labeling strategy for test set
 [2026-03-09 16:45:42] PR BRANCH: Created dev/feature-set-2738-1773045942 for Implementing TTA (Test Time Augmentation)
+[2026-03-09 16:45:44] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:45:45] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:45:49] PR BRANCH: Created dev/feature-set-2248-1773045949 for Implementing TTA (Test Time Augmentation)
