@@ -14935,3 +14935,24 @@
 }
 [2026-03-09 15:32:34] PR BRANCH: Created dev/feature-set-1975-1773041554 for Advanced Feature Engineering Pipeline
 [2026-03-09 15:32:37] PR BRANCH: Created dev/feature-set-1870-1773041557 for Advanced Feature Engineering Pipeline
+[2026-03-09 15:32:37] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:32:40] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:32:41] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:32:48] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:32:49] PR BRANCH: Created dev/feature-set-1871-1773041569 for Add pseudo-labeling strategy for test set
