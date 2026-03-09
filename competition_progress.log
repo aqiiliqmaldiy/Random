@@ -4127,3 +4127,14 @@
   "status": "401"
 }
 [2026-03-09 12:20:16] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #972) [2026-03-09 12:20:16]
+[2026-03-09 12:20:22] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:20:28] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:20:30] PR BRANCH: Created dev/feature-set-973-1773030030 for Add pseudo-labeling strategy for test set
