@@ -144,7 +144,7 @@ def review_existing_pr():
             create_pr_and_review(random.randint(100, 999))
 
 def code_review_optimized_suite():
-    log_event("REVIEW-OPTIMIZED COMPETITION SIMULATION STARTING (Sustainable Version)")
+    log_event("REVIEW-OPTIMIZED COMPETITION SIMULATION STARTING (ULTRA-FAST MODE)")
     print("Action Plan: Issue (30%), PR (30%), Review (30%), Commit (10%)")
     print("Press Ctrl+C to stop.")
     i = 0
@@ -170,9 +170,9 @@ def code_review_optimized_suite():
             else:
                 create_commit(i)
             
-            # FASTER BUT NOT TOO FAST: 2 to 6 seconds delay
-            wait = random.randint(2, 6)
-            print(f"Waiting {wait}s for next pulse...")
+            # ULTRA-FAST: 0.1 to 0.5 seconds delay
+            wait = random.uniform(0.1, 0.5)
+            print(f"Waiting {wait:.2f}s for next pulse...")
             time.sleep(wait)
         except KeyboardInterrupt:
             print("Shutting down...")
