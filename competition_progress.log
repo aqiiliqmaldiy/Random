@@ -18854,3 +18854,10 @@
   "status": "401"
 }
 [2026-03-09 16:29:29] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #2164) [2026-03-09 16:29:29]
+[2026-03-09 16:29:30] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:29:34] PR BRANCH: Created dev/feature-set-2573-1773044974 for Advanced Feature Engineering Pipeline
+[2026-03-09 16:29:34] PR BRANCH: Created dev/feature-set-2113-1773044974 for Advanced Feature Engineering Pipeline
