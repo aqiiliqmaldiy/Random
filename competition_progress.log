@@ -20265,3 +20265,14 @@
   "status": "401"
 }
 [2026-03-09 16:49:16] PR BRANCH: Created dev/feature-set-2772-1773046156 for Advanced Feature Engineering Pipeline
+[2026-03-09 16:49:19] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:49:20] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:49:21] PR BRANCH: Created dev/feature-set-2264-1773046161 for Add pseudo-labeling strategy for test set
