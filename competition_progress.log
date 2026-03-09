@@ -7366,3 +7366,9 @@
   "status": "401"
 }
 [2026-03-09 13:09:57] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1261) [2026-03-09 13:09:57]
+[2026-03-09 13:10:00] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:10:04] COMMIT: Updated submission script for test set predictions (Sprint Pulse #1229) [2026-03-09 13:10:04]
