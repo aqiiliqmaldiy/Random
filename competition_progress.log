@@ -8746,3 +8746,14 @@
   "status": "401"
 }
 [2026-03-09 13:31:51] PR BRANCH: Created dev/feature-set-955-1773034311 for Advanced Feature Engineering Pipeline
+[2026-03-09 13:31:54] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:31:58] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:31:58] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #1372) [2026-03-09 13:31:58]
