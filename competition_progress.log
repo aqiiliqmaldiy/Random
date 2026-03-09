@@ -14669,3 +14669,14 @@
 [2026-03-09 15:28:50] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #1797) [2026-03-09 15:28:50]
 [2026-03-09 15:28:53] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #1852) [2026-03-09 15:28:53]
 [2026-03-09 15:28:57] PR BRANCH: Created dev/feature-set-1935-1773041337 for Advanced Feature Engineering Pipeline
+[2026-03-09 15:29:00] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:29:03] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:29:05] PR BRANCH: Created dev/feature-set-1798-1773041345 for Add pseudo-labeling strategy for test set
