@@ -5909,3 +5909,9 @@
   "status": "401"
 }
 [2026-03-09 12:47:59] PR BRANCH: Created dev/feature-set-500-1773031679 for Advanced Feature Engineering Pipeline
+[2026-03-09 12:48:01] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:48:03] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #1116) [2026-03-09 12:48:03]
