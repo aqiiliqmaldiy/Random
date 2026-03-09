@@ -3096,3 +3096,6 @@
 [2026-03-09 11:57:43] SUCCESS: Issue: EDA: In-depth analysis of class imbalance created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/456
 [2026-03-09 11:57:44] PR BRANCH: Created dev/feature-set-863-1773028664 for Ensemble Model: XGBoost + LightGBM + CatBoost
 [2026-03-09 11:57:48] PR BRANCH: Created dev/feature-set-894-1773028668 for Add pseudo-labeling strategy for test set
+[2026-03-09 11:57:54] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
+[2026-03-09 11:57:58] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
+[2026-03-09 11:58:08] PR BRANCH: Created dev/feature-set-895-1773028688 for Add pseudo-labeling strategy for test set
