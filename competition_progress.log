@@ -7758,3 +7758,14 @@
   "status": "401"
 }
 [2026-03-09 13:16:09] PR BRANCH: Created dev/feature-set-795-1773033368 for Add pseudo-labeling strategy for test set
+[2026-03-09 13:16:11] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:16:12] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:16:16] PR BRANCH: Created dev/feature-set-1259-1773033375 for Ensemble Model: XGBoost + LightGBM + CatBoost
