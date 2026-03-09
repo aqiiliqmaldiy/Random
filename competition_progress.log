@@ -11558,3 +11558,9 @@
   "status": "401"
 }
 [2026-03-09 14:40:36] PR BRANCH: Created dev/feature-set-1569-1773038436 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-09 14:40:37] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:40:37] COMMIT: Cleaned up outliers in training set (Sprint Pulse #1605) [2026-03-09 14:40:37]
