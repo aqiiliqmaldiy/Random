@@ -18457,3 +18457,9 @@
 }
 [2026-03-09 16:23:10] COMMIT: Added data normalization to preprocessing pipeline (Sprint Pulse #2082) [2026-03-09 16:23:10]
 [2026-03-09 16:23:11] COMMIT: Updated submission script for test set predictions (Sprint Pulse #2503) [2026-03-09 16:23:11]
+[2026-03-09 16:23:13] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:23:17] PR BRANCH: Created dev/feature-set-2504-1773044597 for Add pseudo-labeling strategy for test set
