@@ -18409,3 +18409,9 @@
   "status": "401"
 }
 [2026-03-09 16:22:27] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #2130) [2026-03-09 16:22:27]
+[2026-03-09 16:22:27] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:22:29] PR BRANCH: Created dev/feature-set-2495-1773044549 for Add pseudo-labeling strategy for test set
