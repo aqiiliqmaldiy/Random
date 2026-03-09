@@ -3966,3 +3966,9 @@
 [2026-03-09 12:17:32] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #149) [2026-03-09 12:17:32]
 [2026-03-09 12:17:32] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #995) [2026-03-09 12:17:32]
 [2026-03-09 12:17:36] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #958) [2026-03-09 12:17:36]
+[2026-03-09 12:17:37] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:17:44] PR BRANCH: Created dev/feature-set-152-1773029864 for Ensemble Model: XGBoost + LightGBM + CatBoost
