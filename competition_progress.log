@@ -14837,3 +14837,9 @@
 }
 [2026-03-09 15:31:12] PR BRANCH: Created dev/feature-set-1959-1773041472 for Advanced Feature Engineering Pipeline
 [2026-03-09 15:31:15] PR BRANCH: Created dev/feature-set-1810-1773041475 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-09 15:31:15] PR BRANCH: Created dev/feature-set-1864-1773041475 for Add pseudo-labeling strategy for test set
+[2026-03-09 15:31:15] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
