@@ -9578,3 +9578,14 @@
   "status": "401"
 }
 [2026-03-09 14:09:44] PR BRANCH: Created dev/feature-set-1101-1773036584 for Add pseudo-labeling strategy for test set
+[2026-03-09 14:09:47] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:09:52] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:09:56] PR BRANCH: Created dev/feature-set-1104-1773036596 for Ensemble Model: XGBoost + LightGBM + CatBoost
