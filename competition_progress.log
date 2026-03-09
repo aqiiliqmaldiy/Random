@@ -18983,3 +18983,19 @@
   "status": "401"
 }
 [2026-03-09 16:31:32] PR BRANCH: Created dev/feature-set-2123-1773045092 for Advanced Feature Engineering Pipeline
+[2026-03-09 16:31:32] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:31:35] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:31:36] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:31:37] COMMIT: Added logging for validation metrics (Sprint Pulse #2596) [2026-03-09 16:31:37]
