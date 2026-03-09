@@ -14600,3 +14600,14 @@
 [2026-03-09 15:27:33] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1921) [2026-03-09 15:27:33]
 [2026-03-09 15:27:34] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1846) [2026-03-09 15:27:34]
 [2026-03-09 15:27:37] PR BRANCH: Created dev/feature-set-1922-1773041257 for Advanced Feature Engineering Pipeline
+[2026-03-09 15:27:40] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:27:44] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:27:45] PR BRANCH: Created dev/feature-set-1792-1773041265 for Advanced Feature Engineering Pipeline
