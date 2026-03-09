@@ -8711,3 +8711,9 @@
   "status": "401"
 }
 [2026-03-09 13:31:21] PR BRANCH: Created dev/feature-set-949-1773034281 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-09 13:31:22] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:31:23] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #1369) [2026-03-09 13:31:23]
