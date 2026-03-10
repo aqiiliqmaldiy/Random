@@ -36908,3 +36908,20 @@
   "status": "401"
 }
 [2026-03-10 12:31:37] PR BRANCH: Created dev/feature-set-3521-1773117097 for Implementing TTA (Test Time Augmentation)
+[2026-03-10 12:31:40] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:31:40] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 12:31:51] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:31:56] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:31:56] PR BRANCH: Created dev/feature-set-3527-1773117116 for Add pseudo-labeling strategy for test set
