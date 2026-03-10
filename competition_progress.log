@@ -36808,3 +36808,29 @@
 [2026-03-10 12:30:39] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #3488) [2026-03-10 12:30:39]
 [2026-03-10 12:30:42] COMMIT: Added data normalization to preprocessing pipeline (Sprint Pulse #3490) [2026-03-10 12:30:42]
 [2026-03-10 12:30:44] PR BRANCH: Created dev/feature-set-3491-1773117043 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:30:47] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:48] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:49] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:50] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:51] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:52] PR BRANCH: Created dev/feature-set-3496-1773117052 for Add pseudo-labeling strategy for test set
