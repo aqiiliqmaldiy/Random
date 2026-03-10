@@ -28077,3 +28077,24 @@
 }
 [2026-03-10 10:43:22] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #863) [2026-03-10 10:43:22]
 [2026-03-10 10:43:24] PR BRANCH: Created dev/feature-set-864-1773110604 for Add pseudo-labeling strategy for test set
+[2026-03-10 10:43:27] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:43:29] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:43:29] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:43:30] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:43:30] PR BRANCH: Created dev/feature-set-870-1773110610 for Add pseudo-labeling strategy for test set
