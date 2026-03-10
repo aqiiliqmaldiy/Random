@@ -30673,3 +30673,19 @@
   "status": "401"
 }
 [2026-03-10 11:04:43] PR BRANCH: Created dev/feature-set-1665-1773111883 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 11:04:47] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:04:51] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:04:52] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:04:52] PR BRANCH: Created dev/feature-set-1671-1773111892 for Advanced Feature Engineering Pipeline
