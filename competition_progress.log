@@ -23851,3 +23851,9 @@
   "status": "401"
 }
 [2026-03-10 09:08:28] COMMIT: Cleaned up outliers in training set (Sprint Pulse #793) [2026-03-10 09:08:28]
+[2026-03-10 09:08:31] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:08:34] PR BRANCH: Created dev/feature-set-798-1773104914 for Implementing TTA (Test Time Augmentation)
