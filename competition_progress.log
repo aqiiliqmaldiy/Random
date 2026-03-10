@@ -37367,3 +37367,10 @@
   "status": "401"
 }
 [2026-03-10 12:36:16] PR BRANCH: Created dev/feature-set-3650-1773117376 for Optimize data loader with Dask for scalability
+[2026-03-10 12:36:19] ERROR: PR: Optimize data loader with Dask for scalability failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:36:20] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 12:36:30] PR BRANCH: Created dev/feature-set-3652-1773117390 for Add pseudo-labeling strategy for test set
