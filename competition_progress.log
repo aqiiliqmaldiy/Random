@@ -28300,3 +28300,9 @@
 }
 [2026-03-10 10:45:01] COMMIT: Cleaned up outliers in training set (Sprint Pulse #924) [2026-03-10 10:45:01]
 [2026-03-10 10:45:03] PR BRANCH: Created dev/feature-set-925-1773110703 for Add pseudo-labeling strategy for test set
+[2026-03-10 10:45:06] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:45:07] PR BRANCH: Created dev/feature-set-926-1773110707 for Advanced Feature Engineering Pipeline
