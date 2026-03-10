@@ -39086,3 +39086,20 @@
   "status": "401"
 }
 [2026-03-10 13:00:03] PR BRANCH: Created dev/feature-set-4175-1773118803 for Advanced Feature Engineering Pipeline
+[2026-03-10 13:00:06] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 13:00:07] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 13:00:18] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 13:00:20] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 13:00:21] COMMIT: Added logging for validation metrics (Sprint Pulse #4181) [2026-03-10 13:00:21]
