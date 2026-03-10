@@ -24947,3 +24947,24 @@
 }
 [2026-03-10 09:20:14] PR BRANCH: Created dev/feature-set-432-1773105614 for Advanced Feature Engineering Pipeline
 [2026-03-10 09:20:15] PR BRANCH: Created dev/feature-set-18-1773105615 for Add pseudo-labeling strategy for test set
+[2026-03-10 09:20:16] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:20:18] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:20:18] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:20:18] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:20:19] PR BRANCH: Created dev/feature-set-433-1773105619 for Add pseudo-labeling strategy for test set
