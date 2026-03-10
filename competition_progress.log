@@ -38190,3 +38190,14 @@
   "status": "401"
 }
 [2026-03-10 12:50:46] PR BRANCH: Created dev/feature-set-3904-1773118246 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:50:49] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:50:50] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:50:51] PR BRANCH: Created dev/feature-set-3907-1773118250 for Optimize data loader with Dask for scalability
