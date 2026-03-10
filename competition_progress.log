@@ -25592,3 +25592,9 @@
 }
 [2026-03-10 09:22:39] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #15) [2026-03-10 09:22:39]
 [2026-03-10 09:22:41] PR BRANCH: Created dev/feature-set-16-1773105761 for Add pseudo-labeling strategy for test set
+[2026-03-10 09:22:44] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:22:44] PR BRANCH: Created dev/feature-set-17-1773105764 for Ensemble Model: XGBoost + LightGBM + CatBoost
