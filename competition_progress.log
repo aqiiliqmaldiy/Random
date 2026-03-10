@@ -27517,3 +27517,14 @@
   "status": "401"
 }
 [2026-03-10 10:38:27] PR BRANCH: Created dev/feature-set-699-1773110306 for Advanced Feature Engineering Pipeline
+[2026-03-10 10:38:30] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:38:31] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:38:31] PR BRANCH: Created dev/feature-set-702-1773110311 for Ensemble Model: XGBoost + LightGBM + CatBoost
