@@ -38122,3 +38122,14 @@
   "status": "401"
 }
 [2026-03-10 12:50:03] PR BRANCH: Created dev/feature-set-3888-1773118203 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:50:07] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:50:08] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:50:08] PR BRANCH: Created dev/feature-set-3890-1773118208 for Optimize data loader with Dask for scalability
