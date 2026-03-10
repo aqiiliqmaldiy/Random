@@ -34288,3 +34288,9 @@
 }
 [2026-03-10 11:52:38] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #2738) [2026-03-10 11:52:38]
 [2026-03-10 11:52:41] PR BRANCH: Created dev/feature-set-2741-1773114761 for Add pseudo-labeling strategy for test set
+[2026-03-10 11:52:44] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:52:44] PR BRANCH: Created dev/feature-set-2742-1773114764 for Add pseudo-labeling strategy for test set
