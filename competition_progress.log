@@ -24280,3 +24280,19 @@
 [2026-03-10 09:15:56] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
 [2026-03-10 09:15:57] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #340) [2026-03-10 09:15:57]
 [2026-03-10 09:15:59] PR BRANCH: Created dev/feature-set-341-1773105359 for Add pseudo-labeling strategy for test set
+[2026-03-10 09:16:02] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:16:03] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:16:04] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:16:04] PR BRANCH: Created dev/feature-set-907-1773105364 for Advanced Feature Engineering Pipeline
