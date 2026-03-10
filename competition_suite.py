@@ -8,7 +8,7 @@ from datetime import datetime
 
 # CONFIGURATION
 # Using the token provided by the user
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 REPO_OWNER = "aqiiliqmaldiy"
 REPO_NAME = "Random"
 DATA_FILE = "competition_progress.log"
