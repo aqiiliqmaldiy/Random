@@ -36484,3 +36484,14 @@
   "status": "401"
 }
 [2026-03-10 12:14:53] PR BRANCH: Created dev/feature-set-3406-1773116093 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:17:00] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:17:02] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:17:02] PR BRANCH: Created dev/feature-set-3410-1773116222 for Implementing TTA (Test Time Augmentation)
