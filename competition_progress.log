@@ -32991,3 +32991,19 @@
 }
 [2026-03-10 11:29:39] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #2371) [2026-03-10 11:29:39]
 [2026-03-10 11:29:42] PR BRANCH: Created dev/feature-set-2372-1773113381 for Add pseudo-labeling strategy for test set
+[2026-03-10 11:29:45] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:29:45] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:29:46] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:29:46] PR BRANCH: Created dev/feature-set-2376-1773113386 for Advanced Feature Engineering Pipeline
