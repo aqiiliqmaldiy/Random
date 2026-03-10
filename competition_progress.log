@@ -36144,3 +36144,10 @@
   "status": "401"
 }
 [2026-03-10 12:10:48] PR BRANCH: Created dev/feature-set-3293-1773115848 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 12:10:52] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:10:52] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 12:11:03] PR BRANCH: Created dev/feature-set-3297-1773115863 for Implementing TTA (Test Time Augmentation)
