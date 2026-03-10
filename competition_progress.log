@@ -37418,3 +37418,14 @@
   "status": "401"
 }
 [2026-03-10 12:36:48] PR BRANCH: Created dev/feature-set-3662-1773117408 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:36:51] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:36:52] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:36:52] COMMIT: Cleaned up outliers in training set (Sprint Pulse #3664) [2026-03-10 12:36:52]
