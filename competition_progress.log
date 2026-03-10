@@ -34728,3 +34728,9 @@
 }
 [2026-03-10 11:56:21] UNEXPECTED ERROR: [Errno 22] Invalid argument
 [2026-03-10 11:56:31] PR BRANCH: Created dev/feature-set-2868-1773114991 for Advanced Feature Engineering Pipeline
+[2026-03-10 11:56:34] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:56:34] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #2869) [2026-03-10 11:56:34]
