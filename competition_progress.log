@@ -36799,3 +36799,10 @@
 }
 [2026-03-10 12:30:25] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #3485) [2026-03-10 12:30:25]
 [2026-03-10 12:30:26] COMMIT: Updated submission script for test set predictions (Sprint Pulse #3486) [2026-03-10 12:30:26]
+[2026-03-10 12:30:29] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:29] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 12:30:39] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #3488) [2026-03-10 12:30:39]
