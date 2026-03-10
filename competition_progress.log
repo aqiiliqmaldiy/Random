@@ -33590,3 +33590,14 @@
   "status": "401"
 }
 [2026-03-10 11:34:46] PR BRANCH: Created dev/feature-set-2536-1773113685 for Advanced Feature Engineering Pipeline
+[2026-03-10 11:34:49] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:34:50] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:34:50] PR BRANCH: Created dev/feature-set-2539-1773113690 for Ensemble Model: XGBoost + LightGBM + CatBoost
