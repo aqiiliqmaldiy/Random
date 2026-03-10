@@ -26129,3 +26129,14 @@
   "status": "401"
 }
 [2026-03-10 09:27:49] COMMIT: Updated submission script for test set predictions (Sprint Pulse #159) [2026-03-10 09:27:49]
+[2026-03-10 09:27:51] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:27:52] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:27:52] PR BRANCH: Created dev/feature-set-162-1773106072 for Add pseudo-labeling strategy for test set
