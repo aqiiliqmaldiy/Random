@@ -23015,3 +23015,6 @@
 }
 [2026-03-10 08:57:41] SUCCESS: Issue: EDA: In-depth analysis of class imbalance created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/516
 [2026-03-10 08:57:41] PR BRANCH: Created dev/feature-set-618-1773104261 for Add pseudo-labeling strategy for test set
+[2026-03-10 08:57:42] SUCCESS: Issue: Model Selection: Try TabNet for categorical features created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/517
+[2026-03-10 08:57:43] SUCCESS: Issue: Feature Request: Add interaction terms created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/518
+[2026-03-10 08:57:43] PR BRANCH: Created dev/feature-set-97-1773104263 for Add pseudo-labeling strategy for test set
