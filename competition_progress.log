@@ -36359,3 +36359,10 @@
   "status": "401"
 }
 [2026-03-10 12:13:18] PR BRANCH: Created dev/feature-set-3361-1773115998 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:13:22] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 12:13:32] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:13:33] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #3365) [2026-03-10 12:13:33]
