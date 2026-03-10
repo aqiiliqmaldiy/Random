@@ -30908,3 +30908,14 @@
   "status": "401"
 }
 [2026-03-10 11:07:03] PR BRANCH: Created dev/feature-set-1737-1773112023 for Advanced Feature Engineering Pipeline
+[2026-03-10 11:07:06] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:07:08] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:07:09] PR BRANCH: Created dev/feature-set-1740-1773112029 for Ensemble Model: XGBoost + LightGBM + CatBoost
