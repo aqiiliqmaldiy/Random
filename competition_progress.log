@@ -30014,3 +30014,14 @@
   "status": "401"
 }
 [2026-03-10 10:59:06] PR BRANCH: Created dev/feature-set-1457-1773111546 for Advanced Feature Engineering Pipeline
+[2026-03-10 10:59:10] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:59:10] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:59:11] PR BRANCH: Created dev/feature-set-1460-1773111551 for Optimize data loader with Dask for scalability
