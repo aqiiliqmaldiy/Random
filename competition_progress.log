@@ -29475,3 +29475,14 @@
 }
 [2026-03-10 10:54:38] COMMIT: Cleaned up outliers in training set (Sprint Pulse #1295) [2026-03-10 10:54:38]
 [2026-03-10 10:54:41] PR BRANCH: Created dev/feature-set-1298-1773111281 for Implementing TTA (Test Time Augmentation)
+[2026-03-10 10:54:44] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:54:45] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:54:46] PR BRANCH: Created dev/feature-set-1301-1773111285 for Ensemble Model: XGBoost + LightGBM + CatBoost
