@@ -32716,3 +32716,14 @@
   "status": "401"
 }
 [2026-03-10 11:27:01] PR BRANCH: Created dev/feature-set-2300-1773113221 for Add pseudo-labeling strategy for test set
+[2026-03-10 11:27:05] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:27:06] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:27:06] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #2302) [2026-03-10 11:27:06]
