@@ -39177,3 +39177,14 @@
   "status": "401"
 }
 [2026-03-10 13:01:03] PR BRANCH: Created dev/feature-set-4207-1773118863 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 13:01:07] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 13:01:08] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 13:01:08] PR BRANCH: Created dev/feature-set-4209-1773118868 for Advanced Feature Engineering Pipeline
