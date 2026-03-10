@@ -170,8 +170,8 @@ def code_review_optimized_suite():
             else:
                 create_commit(i)
             
-            # ULTRA-FAST: 0.1 to 0.5 seconds delay
-            wait = random.uniform(0.1, 0.5)
+            # ULTRA-FAST: 0.05 to 0.2 seconds delay
+            wait = random.uniform(0.05, 0.2)
             print(f"Waiting {wait:.2f}s for next pulse...")
             time.sleep(wait)
         except KeyboardInterrupt:
