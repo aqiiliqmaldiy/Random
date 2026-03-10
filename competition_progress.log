@@ -35289,3 +35289,19 @@
   "status": "401"
 }
 [2026-03-10 12:01:51] PR BRANCH: Created dev/feature-set-3029-1773115311 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:01:55] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:01:55] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:01:56] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:01:56] PR BRANCH: Created dev/feature-set-3032-1773115316 for Ensemble Model: XGBoost + LightGBM + CatBoost
