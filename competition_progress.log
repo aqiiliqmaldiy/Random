@@ -42857,3 +42857,14 @@
 }
 [2026-03-11 08:56:34] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #1012) [2026-03-11 08:56:34]
 [2026-03-11 08:56:37] PR BRANCH: Created dev/feature-set-1013-1773190597 for Add pseudo-labeling strategy for test set
+[2026-03-11 08:56:42] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:56:44] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:56:48] PR BRANCH: Created dev/feature-set-1019-1773190607 for Advanced Feature Engineering Pipeline
