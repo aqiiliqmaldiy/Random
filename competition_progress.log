@@ -3168,3 +3168,9 @@
   "status": "401"
 }
 [2026-03-11 12:30:59] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #754) [2026-03-11 12:30:59]
+[2026-03-11 12:31:10] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 12:31:22] PR BRANCH: Created dev/feature-set-756-1773203482 for Advanced Feature Engineering Pipeline
