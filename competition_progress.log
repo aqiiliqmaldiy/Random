@@ -2759,3 +2759,14 @@
   "status": "401"
 }
 [2026-03-11 12:02:05] PR BRANCH: Created dev/feature-set-603-1773201725 for Add pseudo-labeling strategy for test set
+[2026-03-11 12:02:09] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 12:02:17] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 12:02:27] COMMIT: Added logging for validation metrics (Sprint Pulse #605) [2026-03-11 12:02:27]
