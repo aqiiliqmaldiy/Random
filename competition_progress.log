@@ -3184,3 +3184,4 @@
 [2026-03-11 12:32:00] COMMIT: Cleaned up outliers in training set (Sprint Pulse #759) [2026-03-11 12:32:00]
 [2026-03-11 12:32:17] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #760) [2026-03-11 12:32:17]
 [2026-03-11 12:32:35] COMMIT: Updated submission script for test set predictions (Sprint Pulse #761) [2026-03-11 12:32:35]
+[2026-03-11 12:32:46] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #762) [2026-03-11 12:32:46]
