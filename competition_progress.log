@@ -3874,3 +3874,24 @@
   "status": "401"
 }
 [2026-03-11 13:24:57] PR BRANCH: Created dev/feature-set-996-1773206697 for Advanced Feature Engineering Pipeline
+[2026-03-11 13:25:01] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:25:31] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:25:46] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:26:00] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:26:10] COMMIT: Implemented stratified k-fold cross-validation (Sprint Pulse #1002) [2026-03-11 13:26:10]
