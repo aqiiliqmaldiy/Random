@@ -45248,3 +45248,19 @@
 }
 [2026-03-11 09:25:52] COMMIT: Added logging for validation metrics (Sprint Pulse #1748) [2026-03-11 09:25:52]
 [2026-03-11 09:25:55] PR BRANCH: Created dev/feature-set-1749-1773192355 for Add pseudo-labeling strategy for test set
+[2026-03-11 09:25:59] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:26:00] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:26:01] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:26:01] PR BRANCH: Created dev/feature-set-1752-1773192361 for Add pseudo-labeling strategy for test set
