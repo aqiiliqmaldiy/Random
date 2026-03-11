@@ -3702,3 +3702,9 @@
   "status": "401"
 }
 [2026-03-11 13:11:58] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #934) [2026-03-11 13:11:58]
+[2026-03-11 13:12:12] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:12:24] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #936) [2026-03-11 13:12:24]
