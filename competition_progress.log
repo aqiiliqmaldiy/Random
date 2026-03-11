@@ -4384,3 +4384,9 @@
   "status": "401"
 }
 [2026-03-11 14:27:07] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1164) [2026-03-11 14:27:07]
+[2026-03-11 14:27:19] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:27:32] PR BRANCH: Created dev/feature-set-1166-1773210452 for Ensemble Model: XGBoost + LightGBM + CatBoost
