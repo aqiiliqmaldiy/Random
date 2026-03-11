@@ -46307,3 +46307,9 @@
 }
 [2026-03-11 09:33:52] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #1959) [2026-03-11 09:33:52]
 [2026-03-11 09:33:56] PR BRANCH: Created dev/feature-set-1960-1773192835 for Add pseudo-labeling strategy for test set
+[2026-03-11 09:33:58] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:33:58] PR BRANCH: Created dev/feature-set-120-1773192838 for Add pseudo-labeling strategy for test set
