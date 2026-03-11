@@ -10,7 +10,7 @@ from datetime import datetime
 # Using the token provided by the user
 GITHUB_TOKEN = "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"
 REPO_OWNER = "aqiiliqmaldiy"
-REPO_NAME = "Data-Science-Competition" 
+REPO_NAME = "Random" 
 DATA_FILE = "competition_progress.log"
 
 HEADERS = {
