@@ -42820,3 +42820,9 @@
   "status": "401"
 }
 [2026-03-11 08:55:58] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #999) [2026-03-11 08:55:58]
+[2026-03-11 08:56:02] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:56:05] PR BRANCH: Created dev/feature-set-1004-1773190565 for Advanced Feature Engineering Pipeline
