@@ -45362,3 +45362,14 @@
   "status": "401"
 }
 [2026-03-11 09:27:16] PR BRANCH: Created dev/feature-set-1783-1773192436 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:27:20] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:27:22] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:27:22] PR BRANCH: Created dev/feature-set-1786-1773192442 for Ensemble Model: XGBoost + LightGBM + CatBoost
