@@ -43488,3 +43488,14 @@
   "status": "401"
 }
 [2026-03-11 09:04:32] PR BRANCH: Created dev/feature-set-1218-1773191072 for Add pseudo-labeling strategy for test set
+[2026-03-11 09:04:36] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:04:38] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:04:38] PR BRANCH: Created dev/feature-set-1220-1773191078 for Add pseudo-labeling strategy for test set
