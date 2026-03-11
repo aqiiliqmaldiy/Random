@@ -3272,3 +3272,9 @@
   "status": "401"
 }
 [2026-03-11 12:37:38] COMMIT: Updated submission script for test set predictions (Sprint Pulse #785) [2026-03-11 12:37:38]
+[2026-03-11 12:38:01] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 12:38:12] PR BRANCH: Created dev/feature-set-788-1773203892 for Ensemble Model: XGBoost + LightGBM + CatBoost
