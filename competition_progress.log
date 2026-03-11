@@ -4091,3 +4091,14 @@
   "status": "401"
 }
 [2026-03-11 14:06:02] PR BRANCH: Created dev/feature-set-1057-1773209162 for Advanced Feature Engineering Pipeline
+[2026-03-11 14:06:08] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:06:23] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:06:36] PR BRANCH: Created dev/feature-set-1059-1773209195 for Implementing TTA (Test Time Augmentation)
