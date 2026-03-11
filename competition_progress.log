@@ -2948,3 +2948,9 @@
   "status": "401"
 }
 [2026-03-11 12:14:29] PR BRANCH: Created dev/feature-set-665-1773202469 for Advanced Feature Engineering Pipeline
+[2026-03-11 12:14:32] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 12:14:41] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #666) [2026-03-11 12:14:41]
