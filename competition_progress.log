@@ -4355,3 +4355,9 @@
   "status": "401"
 }
 [2026-03-11 14:25:24] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #1155) [2026-03-11 14:25:24]
+[2026-03-11 14:25:33] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:25:45] COMMIT: Added logging for validation metrics (Sprint Pulse #1157) [2026-03-11 14:25:45]
