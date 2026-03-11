@@ -46233,3 +46233,14 @@
   "status": "401"
 }
 [2026-03-11 09:33:25] PR BRANCH: Created dev/feature-set-1949-1773192805 for Add pseudo-labeling strategy for test set
+[2026-03-11 09:33:29] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:33:31] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:33:31] PR BRANCH: Created dev/feature-set-1952-1773192811 for Optimize data loader with Dask for scalability
