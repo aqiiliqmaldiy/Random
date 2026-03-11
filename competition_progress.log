@@ -41396,3 +41396,19 @@
   "status": "401"
 }
 [2026-03-11 08:40:12] PR BRANCH: Created dev/feature-set-586-1773189612 for Add pseudo-labeling strategy for test set
+[2026-03-11 08:40:16] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:40:16] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:40:18] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:40:18] PR BRANCH: Created dev/feature-set-591-1773189618 for Optimize data loader with Dask for scalability
