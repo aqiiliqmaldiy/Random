@@ -46001,3 +46001,9 @@
   "status": "401"
 }
 [2026-03-11 09:32:13] PR BRANCH: Created dev/feature-set-1906-1773192732 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:32:13] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:32:14] PR BRANCH: Created dev/feature-set-81-1773192734 for Ensemble Model: XGBoost + LightGBM + CatBoost
