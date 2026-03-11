@@ -43774,3 +43774,14 @@
   "status": "401"
 }
 [2026-03-11 09:08:04] PR BRANCH: Created dev/feature-set-1293-1773191284 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:08:08] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:08:10] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:08:10] PR BRANCH: Created dev/feature-set-1295-1773191290 for Advanced Feature Engineering Pipeline
