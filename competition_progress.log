@@ -44906,3 +44906,9 @@
   "status": "401"
 }
 [2026-03-11 09:21:55] PR BRANCH: Created dev/feature-set-1652-1773192114 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-11 09:21:59] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:21:59] PR BRANCH: Created dev/feature-set-1653-1773192119 for Ensemble Model: XGBoost + LightGBM + CatBoost
