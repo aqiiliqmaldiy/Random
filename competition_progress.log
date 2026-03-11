@@ -41027,3 +41027,9 @@
   "status": "401"
 }
 [2026-03-11 08:36:58] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #479) [2026-03-11 08:36:58]
+[2026-03-11 08:37:09] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:37:09] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #483) [2026-03-11 08:37:09]
