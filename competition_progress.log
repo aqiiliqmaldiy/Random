@@ -4065,3 +4065,9 @@
   "status": "401"
 }
 [2026-03-11 14:04:30] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #1050) [2026-03-11 14:04:30]
+[2026-03-11 14:04:44] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:04:59] PR BRANCH: Created dev/feature-set-1052-1773209098 for Add pseudo-labeling strategy for test set
