@@ -3738,3 +3738,14 @@
   "status": "401"
 }
 [2026-03-11 13:15:08] PR BRANCH: Created dev/feature-set-949-1773206108 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-11 13:15:11] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:15:23] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:15:33] COMMIT: Updated submission script for test set predictions (Sprint Pulse #951) [2026-03-11 13:15:33]
