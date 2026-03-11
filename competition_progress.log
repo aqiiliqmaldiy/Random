@@ -40687,3 +40687,29 @@
   "status": "401"
 }
 [2026-03-11 08:33:47] PR BRANCH: Created dev/feature-set-374-1773189226 for Advanced Feature Engineering Pipeline
+[2026-03-11 08:33:50] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:33:51] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:33:53] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:33:53] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:33:54] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:33:54] PR BRANCH: Created dev/feature-set-380-1773189234 for Ensemble Model: XGBoost + LightGBM + CatBoost
