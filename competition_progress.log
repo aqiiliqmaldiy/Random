@@ -3727,3 +3727,14 @@
 }
 [2026-03-11 13:13:58] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #944) [2026-03-11 13:13:58]
 [2026-03-11 13:14:10] PR BRANCH: Created dev/feature-set-945-1773206050 for Advanced Feature Engineering Pipeline
+[2026-03-11 13:14:13] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:14:53] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:15:08] PR BRANCH: Created dev/feature-set-949-1773206108 for Ensemble Model: XGBoost + LightGBM + CatBoost
