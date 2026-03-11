@@ -41328,3 +41328,19 @@
   "status": "401"
 }
 [2026-03-11 08:39:31] PR BRANCH: Created dev/feature-set-563-1773189571 for Advanced Feature Engineering Pipeline
+[2026-03-11 08:39:35] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:39:36] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:39:38] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:39:39] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #569) [2026-03-11 08:39:39]
