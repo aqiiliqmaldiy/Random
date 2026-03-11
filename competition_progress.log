@@ -2214,3 +2214,14 @@
 }
 [2026-03-11 11:28:50] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #436) [2026-03-11 11:28:50]
 [2026-03-11 11:29:01] PR BRANCH: Created dev/feature-set-437-1773199741 for Add pseudo-labeling strategy for test set
+[2026-03-11 11:29:05] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 11:29:20] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 11:29:29] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #439) [2026-03-11 11:29:29]
