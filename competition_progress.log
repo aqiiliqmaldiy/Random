@@ -2052,3 +2052,9 @@
 [2026-03-11 11:18:03] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #381) [2026-03-11 11:18:03]
 [2026-03-11 11:18:10] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #382) [2026-03-11 11:18:10]
 [2026-03-11 11:18:25] PR BRANCH: Created dev/feature-set-383-1773199105 for Advanced Feature Engineering Pipeline
+[2026-03-11 11:18:28] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 11:18:43] PR BRANCH: Created dev/feature-set-384-1773199123 for Add pseudo-labeling strategy for test set
