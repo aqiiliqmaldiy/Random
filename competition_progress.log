@@ -43688,3 +43688,19 @@
   "status": "401"
 }
 [2026-03-11 09:06:47] PR BRANCH: Created dev/feature-set-1272-1773191207 for Add pseudo-labeling strategy for test set
+[2026-03-11 09:06:51] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:06:54] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:06:55] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:06:55] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #1276) [2026-03-11 09:06:55]
