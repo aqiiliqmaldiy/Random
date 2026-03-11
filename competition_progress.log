@@ -44446,3 +44446,9 @@
   "status": "401"
 }
 [2026-03-11 09:16:13] PR BRANCH: Created dev/feature-set-1494-1773191773 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:16:17] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:16:24] COMMIT: Added logging for validation metrics (Sprint Pulse #1501) [2026-03-11 09:16:24]
