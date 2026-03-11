@@ -1752,3 +1752,9 @@
 }
 [2026-03-11 10:56:46] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #273) [2026-03-11 10:56:46]
 [2026-03-11 10:57:00] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #274) [2026-03-11 10:57:00]
+[2026-03-11 10:57:10] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 10:57:43] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #278) [2026-03-11 10:57:43]
