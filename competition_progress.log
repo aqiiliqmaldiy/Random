@@ -4342,3 +4342,9 @@
   "status": "401"
 }
 [2026-03-11 14:24:10] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1149) [2026-03-11 14:24:10]
+[2026-03-11 14:24:21] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:24:36] COMMIT: Implemented stratified k-fold cross-validation (Sprint Pulse #1151) [2026-03-11 14:24:36]
